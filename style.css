@@ -385,4 +385,178 @@ button {
 
 
 
-/* tbjsw  */
+/* bellow this is where roger the bello will work in his final years of ___ */
+
+.Contact-Form{
+    height: 100vh;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.top-CF{
+ height: 30%;
+ width: 100%;
+ display: flex;
+ align-items: center;
+ justify-content: center;
+}
+
+.h1-CF{
+    position: absolute;
+    color: #404040 ;
+    font-size: 200px;
+    font-family: 'Roboto', sans-serif;
+    text-transform: uppercase;
+}
+
+.h2-CF{
+    position: relative;
+    z-index: 1;
+    font-size: 48px;
+    font-family: 'Roboto', sans-serif;
+    text-transform: uppercase;
+    color: #F2C12E;
+}
+
+.left-CF{
+ height: 70%;
+ width: 40%;
+ display: flex;
+ align-items: center;
+ justify-content: center;
+}
+
+.container-CF {
+    height: 90%;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+
+}
+
+.c-top {
+    height: 30%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+    font-size: medium;
+    color: white;
+}
+
+.c-top p{
+    font-family: 'Roboto', sans-serif;
+}
+
+.c-middle {
+    height: 30%;
+    width: 100%;
+}
+
+.c-middle h6{
+ font-size: 18px;
+ font-family: 'Roboto', sans-serif;
+ color: white;
+}
+
+.c-middle img{
+ height: 50px;
+ width: 50px;
+}
+
+.c-bottom{
+    height: 30%;
+    width: 100%;
+}
+
+.c-bottom h6{
+    font-size: 18px;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+}
+
+.c-bottom img{
+    height: 50px;
+    width: 50px;
+   
+}
+
+
+.right-CF{
+ height: 70%;
+ width: 60%;
+ display: flex;
+ align-items: center;
+ justify-content: center;
+}
+
+.container-form {
+    height: 100%;
+    width: 100%;
+}
+
+.cf-f{
+    height: 80%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.name{
+ height: 10%;
+ width: 75%;
+ background-color: black;
+ border: 3px solid white;
+ padding-left: 5px;
+ 
+}
+
+
+.email{
+    height: 10%;
+    width: 75%;
+    background-color: black;
+    border: 3px solid white;
+    padding-left: 5px;
+}
+
+.message{
+width: 75%;
+background-color: black;
+border: 3px solid white;
+padding-left: 5px;
+padding-top: 5px;
+}
+
+.container-CB {
+    height: 10%;
+    width: 75%;
+    color: white;
+}
+
+.container-btn {
+    height: 12%;
+    width: 75%;
+}
+.btn-CF{
+    height: 100%;
+    width: 20%;
+    background-color: #F2C12E;
+    border-radius: 40px;
+    text-transform: uppercase;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.btn-CF:hover{
+    background-color: #b99e34;
+}
