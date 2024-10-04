@@ -542,6 +542,10 @@ padding-top: 5px;
     color: white;
 }
 
+.container-CB a{
+    color: palevioletred;
+}
+
 .container-btn {
     height: 12%;
     width: 75%;
