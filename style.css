@@ -362,14 +362,13 @@ button {
 .information {
     height: 60vh;
     width: 100%;
-    background-color: red;
+    background-color: #F0CEA0;
 }
 
 .info {
     width: 100%;
     line-height: 50px;
     height: 50%;
-    background-color: bisque;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -381,3 +380,9 @@ button {
     font-weight: bold;
 }
 
+
+.logos {
+    background-size: contain;
+    text-align: center;
+    filter: brightness(0.7);
+}
