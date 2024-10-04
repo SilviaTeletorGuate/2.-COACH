@@ -270,12 +270,13 @@
 }
 .right-image3{
     height: 100%;
-    width: 45%;
+    background-size: contain;
+    width: 50%;
 }
 .image3{
     background-size:contain ;
      height: 80%;
-     width: 50%;
+     width: 100%;
 }
 .text-image4{
     height: 70vh;
@@ -379,5 +380,45 @@ button {
 .info h1 {
     font-family: 'Arial Black', 'Impact', sans-serif;
     font-weight: bold;
+}
+
+
+
+
+/* this is wehre shivia begins */
+.footer{
+    background-color: rgb(125, 95, 124);
+    color: rgb(221, 238, 241);
+    text-align: center;
+    width: 100%;
+    height: 35vh;
+    position: relative;
+    bottom: 0;
+    left: 0; 
+}
+
+.footer-content{
+    height: 100%;
+    width: 100%;
+    background-color: rgb(164, 102, 149);
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    gap: 10px;
+
+}
+.footer-content a{
+    text-align: center;
+}
+.end-content{
+    width: 100%;
+    height: 50%;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+   overflow-wrap: break-word;
 }
 
